@@ -1,0 +1,13 @@
+=== LogSentry Analysis ===
+Valid events: 10 | Rejected lines: 1
+LOGIN_SUCCESS: 2
+LOGIN_FAILED: 6
+ERROR: 1
+LOGOUT: 1
+Unique IP addresses: 3
+NumPy mean failed logins per user with failures: 3.00
+NumPy maximum failed logins: 5
+Alert threshold: 5 failed logins (across entire file)
+ALERT: bob has 5 failed logins
+Skipped line 11: Expected five whitespace-separated fields
+CSV report saved: reports/summary.csv
